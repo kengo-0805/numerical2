@@ -18,7 +18,7 @@
  int main(void) {
    int i,j,k,z = 0; //z:行列サイズ
      #define DIM 4  //４行４列の指定
-
+/*
 //スキャンfで行列のサイズを選択
     printf("行列のサイズを2~10で選択して下さい \n");
     scanf("%d", &z);
@@ -26,13 +26,13 @@
 
      
 //  箱用意する？
-     if(z == 3){
+    if(z == 3){
          double a[DIM][DIM] = {{3,2,1},{1,4,1},{2,2,5}}; //DIM 3 の時
          double b[DIM] = {10,12,21}; //DIM 3 の時
-     }else if(z == 4){
+     }else if(z == 4){      */
          double a[DIM][DIM] = {{9,2,1,1},{2,8,-2,1},{-1,-2,7,-2},{1,-1,-2,6}}; //DIM 4 の時
          double b[DIM] = {20,16,8,17}; //DIM 4 の時
-     }
+//     }
      
    double x[DIM] = {0}; //更新前のx
    double x_new[DIM] = {0}; //更新後のx
